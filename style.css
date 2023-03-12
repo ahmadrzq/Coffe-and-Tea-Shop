@@ -23,8 +23,8 @@ header {
 }
 
 .header-logo img {
-    padding-top: 1.563em;
-    width: 200px;
+  padding-top: 1.563em;
+  width: 200px;
 }
 
 .header-nav {
@@ -64,13 +64,59 @@ header {
   flex-direction: column;
 }
 
-.hero-container h1{
-    font-size: 4.375rem;
-    font-weight: 800;
+.hero-container h1 {
+  font-size: 4.375rem;
+  font-weight: 800;
 }
 
-.hero-container h3{
-    font-size: 2.2rem;
-    font-weight: 400;
+.hero-container h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
 }
 /* Hero */
+
+/* Aboute me */
+.about-me {
+  padding: 7em 12.5em;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.card-img {
+  padding: 0 3.5em;
+}
+
+.card-img img {
+  border-radius: 10px;
+  object-fit: cover;
+  background-position: center;
+  height: 400px;
+  width: 300px;
+}
+
+.card-content {
+  padding: 0 3.5em;
+}
+
+.card-content h3 {
+  color: #0f8b8d;
+  font-weight: 800;
+  font-size: 3rem;
+  border-bottom: 3px solid #ec9a29;
+  display: inline-block;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.card-content a{
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: #A8201A;
+    color: white;
+    border-radius: 55px;
+    margin-top: 2em;
+}
+/* Aboute me */
