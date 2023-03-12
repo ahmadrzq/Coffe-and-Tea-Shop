@@ -77,7 +77,7 @@ header {
 
 /* Aboute me */
 .about-me {
-  padding: 7em 12.5em;
+  padding: 7em 11em;
 }
 
 .card {
@@ -104,7 +104,7 @@ header {
 .card-content h3 {
   color: #0f8b8d;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 2.8rem;
   border-bottom: 3px solid #ec9a29;
   display: inline-block;
   padding-bottom: 0.5em;
@@ -120,3 +120,34 @@ header {
     margin-top: 2em;
 }
 /* Aboute me */
+
+/* Find Us */
+.find-us{
+    text-align: center;
+}
+
+.find-us h1{
+    font-size: 2.8rem;
+    color: #0F8B8D;
+    font-weight: 800;
+}
+
+.find-us span{
+    color: #EC9A29;
+}
+
+.find-us-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 12.5em;
+}
+
+.item{
+    width: 33%;
+    padding: 2em ;
+}
+
+.item img{
+    width: 100%;
+}
+/* Find Us */
