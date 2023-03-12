@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: rgba(20, 54, 66, 0.7);
+  height: 100px;
+  padding: 0 5em;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo img {
+
+  padding-top: 1.563em;
+  width: 200px;
+}
+
+.header-nav {
+  line-height: 100px;
+  float: right;
+  line-height: 100px;
+}
+
+.header-nav li {
+  float: left;
+  margin-right: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* Header */
