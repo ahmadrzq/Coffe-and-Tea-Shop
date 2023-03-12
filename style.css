@@ -111,43 +111,66 @@ header {
   margin-bottom: 0.5em;
 }
 
-.card-content a{
-    display: inline-block;
-    padding: 0.8em 2em;
-    background-color: #A8201A;
-    color: white;
-    border-radius: 55px;
-    margin-top: 2em;
+.card-content a {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background-color: #a8201a;
+  color: white;
+  border-radius: 55px;
+  margin-top: 2em;
 }
 /* Aboute me */
 
 /* Find Us */
-.find-us{
-    text-align: center;
+.find-us {
+  text-align: center;
 }
 
-.find-us h1{
-    font-size: 2.8rem;
-    color: #0F8B8D;
-    font-weight: 800;
+.find-us h1 {
+  font-size: 2.8rem;
+  color: #0f8b8d;
+  font-weight: 800;
 }
 
-.find-us span{
-    color: #EC9A29;
+.find-us span {
+  color: #ec9a29;
 }
 
-.find-us-img{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2em 12.5em;
+.find-us-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 12.5em;
 }
 
-.item{
-    width: 33%;
-    padding: 2em ;
+.item {
+  width: 33%;
+  padding: 2em;
 }
 
-.item img{
-    width: 100%;
+.item img {
+  width: 100%;
 }
 /* Find Us */
+
+/* Contact Us */
+.contact-us {
+  padding: 2em 12.5em;
+  text-align: center;
+}
+
+.contact-us h1 {
+  font-size: 2.8rem;
+  color: #0f8b8d;
+  font-weight: 800;
+  margin-bottom: 0.4em;
+}
+
+.contact-us a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.8em 2em;
+  background-color: #a8201a;
+  color: white;
+  border-radius: 55px;
+}
+/* Contact Us */
