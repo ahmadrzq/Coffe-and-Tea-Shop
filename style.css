@@ -154,7 +154,7 @@ header {
 
 /* Contact Us */
 .contact-us {
-  padding: 2em 12.5em;
+  padding: 4em 12.5em;
   text-align: center;
 }
 
@@ -174,3 +174,47 @@ header {
   border-radius: 55px;
 }
 /* Contact Us */
+
+/* Footer */
+footer{
+    margin-top: 4em;
+    background-color: #143642;
+    padding: 3em 2em 7em;
+    font-weight: 700;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo img{
+    width: 80%;
+}
+
+.footer-btn{
+    margin-top: 0.4em;
+}
+
+.footer-btn img{
+    width: 12%;
+}
+
+.footer-item{
+    font-size: 1.1rem;
+}
+
+.footer-item h3{
+    color:#EC9A29;
+    margin-bottom: 1.3em;
+}
+
+.footer-item li{
+    margin-bottom: 0.7em;
+}
+
+.footer-item li a{
+    color: white;
+    font-weight: normal;
+}
+/* Footer */
