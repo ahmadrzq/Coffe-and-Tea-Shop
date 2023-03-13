@@ -226,3 +226,53 @@ footer {
   font-weight: normal;
 }
 /* Footer */
+
+/* Menu page */
+.products-menu{
+    padding: 10em 7em 3em;
+    text-align: center;
+}
+
+.products-menu h1{
+   color: #0F8B8D;
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.products-menu p{
+    margin: 1em 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.products-menu-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.product-menu{
+    margin: 1em;
+    padding: 1em 0;
+    width: 25%;
+    background-image: url(assets/Coffee\ background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.product-menu h3{
+    font-size: 1.5rem;
+}
+
+.product-menu h4{
+    font-size: 1.2rem;
+    padding: 0.5em 0;
+}
+
+/* Menu page */
