@@ -346,24 +346,78 @@ footer {
   padding: 11em 7em 3em;
 }
 
-.location h1{
-    font-size: 3rem;
-    color: #0F8B8D;
-    font-weight: 800;
+.location h1 {
+  font-size: 3rem;
+  color: #0f8b8d;
+  font-weight: 800;
 }
 
-.location-item{
-    display: flex;
+.location-item {
+  display: flex;
 }
 
-.find-us-text{
-    padding-right: 10em;
+.find-us-text {
+  padding-right: 10em;
 }
 
-.address{
-    margin: 1em 0;
-    padding: 2em 2em;
-    border-radius: 10px;
-    border: 1px solid #D2D2D2;
+.address {
+  margin: 1em 0;
+  padding: 2em 2em;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
 }
 /* Find us */
+
+/* Form */
+.form {
+  padding: 11em 25em 3em;
+}
+
+.form-title h1 {
+  justify-content: start;
+  justify-items: start;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0f8b8d;
+  margin-bottom: 0.5em;
+}
+
+.form-content {
+  padding: 2em 3em;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.form-item label {
+  margin-right: 1em;
+}
+
+.form-item input,
+.form-item textarea {
+  width: 300px;
+  padding: 1em;
+  border-radius: 20px;
+  border: 2px solid #d2d2d2;
+}
+
+.form-submit{
+    text-align: center;
+}
+
+.form-submit input {
+  display: inline-block;
+  padding: 0.8em 4em;
+  background-color: #a8201a;
+  color: white;
+  border-radius: 55px;
+  margin-top: 2em;
+  border: none;
+}
+/* Form */
