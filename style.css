@@ -266,8 +266,9 @@ footer {
     color: white;
 }
 
-.product-menu h3{
+.product-menu a{
     font-size: 1.5rem;
+    color: white;
 }
 
 .product-menu h4{
