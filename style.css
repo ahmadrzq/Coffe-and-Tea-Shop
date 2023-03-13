@@ -370,13 +370,16 @@ footer {
 
 /* Form */
 .form {
-  padding: 11em 25em 3em;
+  padding: 11em 10em 3em;
+}
+
+.form-container{
+    width: 60%;
+    margin: 0 auto;
 }
 
 .form-title h1 {
-  justify-content: start;
-  justify-items: start;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #0f8b8d;
   margin-bottom: 0.5em;
@@ -411,13 +414,13 @@ footer {
     text-align: center;
 }
 
-.form-submit input {
-  display: inline-block;
+.form-submit button {
   padding: 0.8em 4em;
   background-color: #a8201a;
   color: white;
   border-radius: 55px;
   margin-top: 2em;
   border: none;
+  cursor:pointer;
 }
 /* Form */
