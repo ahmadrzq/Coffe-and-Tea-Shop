@@ -287,8 +287,8 @@ footer {
   align-items: center;
 }
 
-.detail-img img{
-    width: 100%;
+.detail-img img {
+  width: 100%;
 }
 
 .detail-text h1 {
@@ -340,3 +340,30 @@ footer {
   width: 15%;
 }
 /* Detail page */
+
+/* Find us */
+.location {
+  padding: 11em 7em 3em;
+}
+
+.location h1{
+    font-size: 3rem;
+    color: #0F8B8D;
+    font-weight: 800;
+}
+
+.location-item{
+    display: flex;
+}
+
+.find-us-text{
+    padding-right: 10em;
+}
+
+.address{
+    margin: 1em 0;
+    padding: 2em 2em;
+    border-radius: 10px;
+    border: 1px solid #D2D2D2;
+}
+/* Find us */
