@@ -287,6 +287,10 @@ footer {
   align-items: center;
 }
 
+.detail-img img{
+    width: 100%;
+}
+
 .detail-text h1 {
   font-size: 3rem;
   color: #0f8b8d;
