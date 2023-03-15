@@ -1,3 +1,18 @@
-@media all and (max-width: 1023px){
-    
+@media all and (max-width: 1023px) {
+  .header-nav {
+    display: none;
+  }
+
+  .bar {
+    display: block !important;
+  }
+
+  .hero h1 {
+    font-size: 3.375rem !important;
+  }
+
+  .hero h3 {
+    font-size: 1.5rem !important;
+  }
+  
 }
