@@ -9,15 +9,20 @@
 
 /* Header */
 header {
-  background-color: rgba(20, 54, 66, 0.5);
-  height: 100px;
-  padding: 0 7em;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 10;
+  background-image: url(assets/Coffe\ Header.png);
+  background-size: cover;
 }
 
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(20, 54, 66, 0.7);
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 7em;
+}
 .header-menu {
   background-color: #0f8b8d;
 }
@@ -50,33 +55,20 @@ header {
 
 /* Hero */
 .hero {
-  position: relative;
-  background-image: url(assets/Coffe\ Header.png);
-  background-size: cover;
-  height: 700px;
-  padding: 12.5em 0;
   color: white;
-}
-
-.hero-container {
-  background-color: rgba(20, 54, 66, 0.7);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  height: 600px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-container h1 {
+.hero h1 {
   font-size: 4.375rem;
   font-weight: 800;
 }
 
-.hero-container h3 {
+.hero h3 {
   font-size: 2.2rem;
   font-weight: 400;
 }
@@ -373,9 +365,9 @@ footer {
   padding: 11em 10em 3em;
 }
 
-.form-container{
-    width: 60%;
-    margin: 0 auto;
+.form-container {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .form-title h1 {
@@ -410,8 +402,8 @@ footer {
   border: 2px solid #d2d2d2;
 }
 
-.form-submit{
-    text-align: center;
+.form-submit {
+  text-align: center;
 }
 
 .form-submit button {
@@ -421,6 +413,6 @@ footer {
   border-radius: 55px;
   margin-top: 2em;
   border: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 /* Form */
