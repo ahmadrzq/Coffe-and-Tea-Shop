@@ -56,7 +56,7 @@ header {
 /* Hero */
 .hero {
   color: white;
-  height: 600px;
+  padding: 10em 0 20em;
   display: flex;
   flex-direction: column;
   justify-content: center;
