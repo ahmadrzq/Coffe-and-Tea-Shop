@@ -20,36 +20,42 @@ header {
 }
 
 /* Navbar */
-.navbar{
-    padding: 0 7em;
+.navbar {
+  padding: 2em 7em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-menu {
   background-color: #0f8b8d;
 }
 
-.header-logo {
-  float: left;
-}
-
 .header-logo img {
-  padding-top: 1.563em;
   width: 200px;
 }
 
-.header-nav {
-  float: right;
-  line-height: 100px;
+.header-nav ul {
+  display: flex;
 }
 
-.header-nav li {
-  float: left;
-  margin-left: 40px;
+.header-nav ul li {
+  margin-left: 3em;
 }
 
 .header-nav li a {
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.bar {
+  display: none;
+}
+
+.bar svg {
+  fill: white;
+  width: 30px;
+  height: auto;
 }
 /* Header */
 
