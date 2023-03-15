@@ -227,7 +227,7 @@ footer {
 
 /* Menu page */
 .products-menu {
-  padding: 10em 7em 3em;
+  padding: 5em 7em 3em;
   text-align: center;
 }
 
@@ -277,7 +277,7 @@ footer {
 
 /* Detail page */
 .detail {
-  padding: 8em 7em 3em;
+  padding: 5em 7em 3em;
 }
 
 .detail-content {
@@ -341,7 +341,7 @@ footer {
 
 /* Find us */
 .location {
-  padding: 11em 7em 3em;
+  padding: 5em 7em 3em;
 }
 
 .location h1 {
@@ -368,7 +368,7 @@ footer {
 
 /* Form */
 .form {
-  padding: 11em 10em 3em;
+  padding: 5em 10em 3em;
 }
 
 .form-container {
