@@ -80,7 +80,7 @@ header {
 }
 /* Hero */
 
-/* Aboute me */
+/* About me */
 .about-me {
   padding: 7em 11em;
 }
@@ -102,8 +102,12 @@ header {
   width: 300px;
 }
 
-.card-content {
-  padding: 0 3.5em;
+.card-right {
+  padding-left: 3.5em;
+}
+
+.card-left {
+  padding-right: 3.5em;
 }
 
 .card-content h3 {

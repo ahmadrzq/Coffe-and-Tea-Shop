@@ -14,5 +14,60 @@
   .hero h3 {
     font-size: 1.5rem !important;
   }
-  
+
+  /* About Me */
+  .about-me {
+    padding: 7em 5em !important;
+  }
+
+  .card-img {
+    padding: 0 !important;
+  }
+
+  .card-img img {
+    height: 350px !important;
+    width: 250px !important;
+  }
+
+  .card-content h3 {
+    font-size: 2.3rem !important;
+  }
+  /* About Me */
+
+  /* Find Us */
+  .find-us h1 {
+    font-size: 2.3rem !important;
+  }
+
+  .find-us-img {
+    padding: 2em 5em !important;
+  }
+
+  .item {
+    width: 50% !important;
+  }
+  /* Find Us */
+
+  /* Contact Us */
+  .contact-us h1 {
+    font-size: 2.3rem !important;
+  }
+  /* Contact Us */
+
+  .footer-container {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .footer-logo img {
+    width: 50% !important;
+  }
+
+  .footer-btn img {
+    width: 5% !important;
+  }
+
+  .footer-item{
+    margin-bottom: 2em !important;
+  }
 }
