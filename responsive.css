@@ -78,6 +78,10 @@
   .footer-item {
     margin-bottom: 2em !important;
   }
+
+  .product-menu {
+    width: 50% !important;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -139,4 +143,18 @@
     width: 10% !important;
   }
   /* Footer */
+
+  /* Menu page */
+  .products-menu {
+    padding: 3em 2em 3em !important;
+  }
+  .products-menu h1 {
+    font-size: 2.3rem !important;
+  }
+  .products-menu p {
+    font-size: 1rem !important;
+  }
+  .product-menu {
+    width: 100% !important;
+  }
 }
