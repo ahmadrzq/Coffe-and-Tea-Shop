@@ -190,4 +190,28 @@
   .product-menu {
     width: 100% !important;
   }
+  /* Menu Page */
+
+  /* Detail Page */
+  .detail-img img {
+    width: 100% !important;
+  }
+  .detail-text h1 {
+    font-size: 1.6rem !important;
+  }
+  .detail-text h3 {
+    font-size: 2.4rem !important;
+  }
+  .detail-description,
+  .detail-btn {
+    padding: 0 2em !important;
+    text-align: center;
+  }
+  .detail-description h1 {
+    font-size: 1.8rem !important;
+  }
+  .detail-btn a {
+    padding: 0.3em 1.2em !important;
+  }
+  /* Detail Page */
 }
