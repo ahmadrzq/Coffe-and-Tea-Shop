@@ -29,6 +29,14 @@
     width: 250px !important;
   }
 
+  .card-content {
+    padding: 0 !important;
+  }
+
+  .card-right {
+    padding-left: 3.5rem !important;
+  }
+
   .card-content h3 {
     font-size: 2.3rem !important;
   }
