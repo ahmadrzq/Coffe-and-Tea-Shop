@@ -115,6 +115,22 @@
     padding: 0.3em 1.2em !important;
   }
   /* Detail Page */
+
+  /* Find Us */
+  .location {
+    padding: 3em 3em 3em !important;
+  }
+  .location-item {
+    flex-direction: column;
+  }
+  .find-us-text {
+    padding-right: 0 !important;
+  }
+  .find-us-map {
+    text-align: center;
+  }
+
+  /* Find Us */
 }
 
 @media all and (max-width: 767px) {
@@ -214,4 +230,20 @@
     padding: 0.3em 1.2em !important;
   }
   /* Detail Page */
+
+  /* Find Us */
+  .location h1 {
+    font-size: 2.3rem !important;
+    color: #0f8b8d;
+    font-weight: 800;
+  }
+
+  .address {
+    padding: 1em 2em !important;
+  }
+
+  .address h2 {
+    font-size: 1.2rem !important;
+  }
+  /* Find Us */
 }
