@@ -63,10 +63,7 @@ header {
 .hero {
   color: white;
   padding: 10em 0 20em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .hero h1 {
