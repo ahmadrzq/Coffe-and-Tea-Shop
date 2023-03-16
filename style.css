@@ -353,8 +353,12 @@ footer {
   display: flex;
 }
 
+.find-us-text, .find-us-map{
+    width: 50%;
+}
+
 .find-us-text {
-  padding-right: 10em;
+  padding-right: 5em;
 }
 
 .find-us-map iframe{
