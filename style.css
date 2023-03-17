@@ -48,6 +48,13 @@ header {
   font-size: 1.2rem;
 }
 
+.header-nav li a:hover {
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .bar {
   display: none;
 }
@@ -223,8 +230,19 @@ footer {
 
 /* Menu page */
 .products-menu {
-  padding: 5em 7em 3em;
+  padding: 5em 12em 3em;
   text-align: center;
+}
+
+.product-menu:hover{
+    transition: all 0.1s;
+    transform: scale(1.2);
+}
+
+.product-menu-wrapper:hover{
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .products-menu h1 {
@@ -259,7 +277,7 @@ footer {
   color: white;
   background-image: url(assets/Coffee\ background.png);
   background-size: cover;
-  margin: 1em;
+  margin: 2em;
   padding: 2em 1em;
 }
 
