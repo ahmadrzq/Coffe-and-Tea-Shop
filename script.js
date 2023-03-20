@@ -14,4 +14,3 @@ if (buttonActiveNow === "http://127.0.0.1:5501/find-us.html") {
 if (buttonActiveNow === "http://127.0.0.1:5501/help.html") {
   navList[2].classList.add("active");
 }
-
