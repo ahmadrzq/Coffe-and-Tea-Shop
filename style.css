@@ -258,7 +258,11 @@ footer {
 .sidebar-container ul li a{
     font-size: 1.2rem;
     font-weight: 600;
-    color: black;
+    color: grey;
+}
+
+.active-sidebar{
+    border-bottom: 3px solid #ec9a29;
 }
 
 .sidebar-container ul li:hover{
