@@ -46,13 +46,11 @@ header {
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+  padding-bottom: 5px;
 }
 
-.header-nav li a:hover {
-  background-color: yellow;
-  color: red;
-  font-weight: bold;
-  font-size: 1.2rem;
+.active {
+  border-bottom: 3px solid #ec9a29;
 }
 
 .bar {
@@ -234,15 +232,15 @@ footer {
   text-align: center;
 }
 
-.product-menu:hover{
-    transition: all 0.1s;
-    transform: scale(1.2);
+.product-menu:hover {
+  transition: all 0.1s;
+  transform: scale(1.2);
 }
 
-.product-menu-wrapper:hover{
-    transition: all 0.5s;
-    display: flex;
-    flex-direction: column-reverse;
+.product-menu-wrapper:hover {
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .products-menu h1 {
@@ -371,16 +369,17 @@ footer {
   display: flex;
 }
 
-.find-us-text, .find-us-map{
-    width: 50%;
+.find-us-text,
+.find-us-map {
+  width: 50%;
 }
 
 .find-us-text {
   padding-right: 5em;
 }
 
-.find-us-map iframe{
-    width: 100%;
+.find-us-map iframe {
+  width: 100%;
 }
 
 .address {
