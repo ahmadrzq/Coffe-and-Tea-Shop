@@ -302,6 +302,8 @@ footer {
 
 .product-menu {
   width: 33%;
+  display: block;
+  text-align: center;
 }
 
 .product-menu-wrapper {
