@@ -242,6 +242,7 @@ footer {
 
 .sidebar-container h1 {
   font-size: 1.5rem !important;
+  font-weight: 600;
   margin-bottom: 1em;
 }
 
@@ -256,7 +257,13 @@ footer {
 
 .sidebar-container ul li a{
     font-size: 1.2rem;
+    font-weight: 600;
     color: black;
+}
+
+.sidebar-container ul li:hover{
+    transform: scale(1.1);
+    transition: all 0.1s;
 }
 
 .product-content{
