@@ -79,9 +79,21 @@
     margin-bottom: 2em !important;
   }
 
+  /* Menu Page */
+  .products-menu{
+    flex-wrap: wrap;
+  }
+  .sidebar{
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+  .product-content{
+    width: 100% !important;
+  }
   .product-menu {
     width: 50% !important;
   }
+  /* Menu Page */
 
   /* Detail Page */
   .detail {
