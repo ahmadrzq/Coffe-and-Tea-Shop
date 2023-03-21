@@ -71,16 +71,46 @@ filterProducts();
 // Accordion
 const footerBtn = document.querySelectorAll(".footer-bicon");
 const footerList = document.querySelectorAll(".footer-list");
-const footerIcon = document.querySelectorAll('.footer-bicon i');
+const footerIcon = document.querySelectorAll(".footer-bicon i");
 
 for (let i = 0; i < footerBtn.length; i++) {
   footerBtn[i].addEventListener("click", function () {
     if (footerList[i].style.display === "block") {
-        footerIcon[i].style.transform = "";
-        footerList[i].style.display = "none";
+      footerIcon[i].style.transform = "";
+      footerList[i].style.display = "none";
     } else {
-        footerIcon[i].style.transform = "rotate(270deg)";
+      footerIcon[i].style.transform = "rotate(270deg)";
       footerList[i].style.display = "block";
     }
   });
 }
+
+// Animations
+const animatedLeft = document.querySelector(".one");
+const animatedRight = document.querySelector(".two");
+const animatedRightTwo = document.querySelector(".three");
+
+window.addEventListener("scroll", () => {
+  const scrollPos = window.scrollY + window.innerHeight;
+
+  if (scrollPos >= animatedLeft.offsetTop + animatedLeft.offsetHeight / 2) {
+    animatedLeft.classList.add("animate");
+  } else {
+    animatedLeft.classList.remove("animate");
+  }
+
+  if (scrollPos >= animatedRight.offsetTop + animatedRight.offsetHeight / 2) {
+    animatedRight.classList.add("animate");
+  } else {
+    animatedRight.classList.remove("animate");
+  }
+
+  if (
+    scrollPos >=
+    animatedRightTwo.offsetTop + animatedRightTwo.offsetHeight / 2
+  ) {
+    animatedRightTwo.classList.add("animate");
+  } else {
+    animatedRightTwo.classList.remove("animate");
+  }
+});
