@@ -208,19 +208,33 @@ footer {
 }
 
 .footer-item {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 .footer-item h3 {
-  color: #ec9a29;
-  margin-bottom: 1.3em;
+    color: #ec9a29;
+    margin-bottom: 1.3em;
 }
 
-.footer-item li {
-  margin-bottom: 0.7em;
+.footer-bicon {
+    cursor: pointer;
 }
 
-.footer-item li a {
+.footer-bicon:hover {
+    filter: brightness(0.8);
+}
+
+.footer-bicon .fas{
+    filter: brightness(0) invert(1);
+    display: none;
+}
+
+.footer-list{
+    display: none;
+    margin-bottom: 2em;
+}
+
+.footer-list li a {
   color: white;
   font-weight: normal;
 }
