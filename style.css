@@ -506,3 +506,38 @@ footer {
   cursor: pointer;
 }
 /* Form */
+
+
+/* Animation */
+.one {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.two {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateX(50%);
+}
+
+.three {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.one.animate {
+  opacity: 1;
+  transform: none;
+}
+
+.two.animate {
+  opacity: 1;
+  transform: none;
+}
+
+.three.animate {
+  opacity: 1;
+  transform: none;
+}
