@@ -67,6 +67,10 @@
     text-align: center !important;
   }
 
+  .footer-logo {
+    margin-bottom: 1em !important;
+  }
+
   .footer-logo img {
     width: 40% !important;
   }
@@ -74,20 +78,35 @@
   .footer-btn img {
     width: 5% !important;
   }
-
   .footer-item {
-    margin-bottom: 2em !important;
+    text-align: start;
+    margin-bottom: 1em !important;
+  }
+  .footer-item h3{
+    margin-bottom: 0 !important;
+  }
+  .footer-bicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ec9a29;
+    margin-bottom: 1em !important;
+    padding-bottom: 0.5em !important;
+  }
+
+  .footer-bicon .fas {
+    display: block !important;
   }
 
   /* Menu Page */
-  .products-menu{
+  .products-menu {
     flex-wrap: wrap;
   }
-  .sidebar{
+  .sidebar {
     width: 100% !important;
     margin-bottom: 1em;
   }
-  .product-content{
+  .product-content {
     width: 100% !important;
   }
   .product-menu {

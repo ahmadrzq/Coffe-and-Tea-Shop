@@ -67,3 +67,20 @@ window.addEventListener("popstate", (event) => {
 });
 
 filterProducts();
+
+// Accordion
+const footerBtn = document.querySelectorAll(".footer-bicon");
+const footerList = document.querySelectorAll(".footer-list");
+const footerIcon = document.querySelectorAll('.footer-bicon i');
+
+for (let i = 0; i < footerBtn.length; i++) {
+  footerBtn[i].addEventListener("click", function () {
+    if (footerList[i].style.display === "block") {
+        footerIcon[i].style.transform = "";
+        footerList[i].style.display = "none";
+    } else {
+        footerIcon[i].style.transform = "rotate(270deg)";
+      footerList[i].style.display = "block";
+    }
+  });
+}
