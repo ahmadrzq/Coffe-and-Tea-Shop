@@ -233,7 +233,7 @@ footer {
 }
 
 .sidebar {
-  width: 50%;
+  width: 20%;
   padding: 20px 40px;
   border-radius: 20px;
   border: 2px solid #d2d2d2;
@@ -259,6 +259,8 @@ footer {
     font-size: 1.2rem;
     font-weight: 600;
     color: grey;
+    cursor: pointer;
+    padding-bottom: 5px;
 }
 
 .active-sidebar{
@@ -271,7 +273,7 @@ footer {
 }
 
 .product-content{
-    width: auto;
+    width: 80%;
 }
 
 .product-menu:hover {
